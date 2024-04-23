@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Počasí</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Pocasiall1">
+    <div class="Pocasi1">
+    <h1>Česko</h1>
+    <h3>8°C</h3>
+    <h3>Počasí : Polojasno</h3>
+    <h3>Vítr = 10km/h</h3>
+    <h3>Vlhkost = 44%</h3>
+    </div>
+
+    <div class="Pocasi2">
+        <h1>Slovensko</h1>
+        <h3>9°C</h3>
+        <h3>Počasí : Oblačno</h3>
+        <h3>Vítr = 13km/h</h3>
+        <h3>Vlhkost = 63%</h3>
+        </div>
+
+        <div class="Pocasi3">
+            <h1>Německo</h1>
+            <h3>8°C</h3>
+            <h3>Počasí : Polojasno</h3>
+            <h3>Vítr = 11km/h</h3>
+            <h3>Vlhkost = 46%</h3>
+            </div>
+        </div>
+
+        <div class="Pocasiall2">
+            <div class="Pocasi4">
+                <h1>Švýcarsko</h1>
+                <h3>8°C</h3>
+                <h3>Počasí : Oblačno</h3>
+                <h3>Vítr = 32km/h</h3>
+                <h3>Vlhkost = 50%</h3>
+                </div>
+
+                <div class="Pocasi5">
+                    <h1>Itálie</h1>
+                    <h3>15°C</h3>
+                    <h3>Počasí : Oblačno</h3>
+                    <h3>Vítr = 21km/h</h3>
+                    <h3>Vlhkost = 51%</h3>
+                    </div>
+                </div>
+
+                <div class="zjistenipocasiclass">
+        <h3>Zjištění počasí</h3>
+        <div class="dropdown">
+            <span>Namiř zde</span>
+            <div class="dropdown-content">
+              <button onclick="PocasiCesko()">Česko</button>
+              <button onclick="PocasiSlovensko()">Slovensko</button>
+              <button onclick="PocasiNemecko()">Německo</button>
+              <button onclick="PocasiSvycarsko()">Švýcarsko</button>
+              <button onclick="PocasiItalie()">Itálie</button>
+            </div>
+          </div>
+        <p id="resultpocasi">-</p>
+    </div>
+</body>
+</html>
